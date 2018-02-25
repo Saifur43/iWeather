@@ -61,8 +61,9 @@ class Window(QtWidgets.QWidget):
         self.lbl3.setText(weather)
 
     def get_city(self):
-        city_name =  default_city.get_default()
-        self.city_lbl.setText(city_name)
+        city_name = default_city.get_default()
+        city_name_s = city_name.title()
+        self.city_lbl.setText(city_name_s)
 
 
 app = QtWidgets.QApplication(sys.argv)

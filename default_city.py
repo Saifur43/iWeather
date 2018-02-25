@@ -1,7 +1,8 @@
 def set_default(name):
     open('set.txt', 'w').close()
     file = open("set.txt", 'w')
-    file.write(name)
+    name_s = name.lower()
+    file.write(name_s)
 
 
 def get_default():
