@@ -21,11 +21,3 @@ QPushButton {
    border-style: none;
    height: 25px;
 }
-
-QMessageBox {
-    background-color: #333333;
-}
-
-QMessageBox QLabel {
-    color: #aaa;
-}

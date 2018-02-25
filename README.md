@@ -2,21 +2,21 @@
 
 iWeather is a tool for searching weather of any city in Bangladesh.
 
-  - Enter the Name of Your City
   
   
-  ![capture](https://user-images.githubusercontent.com/16235332/35742195-e9ac7ed6-0863-11e8-8c49-f1a76757266a.JPG)
-  
-  - Click "Get Weather" 
-  - See the Result
-  
-![capturee](https://user-images.githubusercontent.com/16235332/35742229-049e4378-0864-11e8-9b85-755c55b97362.JPG)
+![capture](https://user-images.githubusercontent.com/16235332/36641535-27a502cc-1a5b-11e8-94f9-8896c29ed84f.JPG)
+
+- Change city name from 'Change City' menu
+
+![capture](https://user-images.githubusercontent.com/16235332/36641559-92a3e8c2-1a5b-11e8-8f2c-f00272dfa4fa.JPG)
+
 
 ### Python Modules
 
 
 * [PyQt5](https://pypi.python.org/pypi/PyQt5) - Python bindings for the Qt cross platform UI and application toolkit
 * [beautifulsoup4](https://pypi.python.org/pypi/beautifulsoup4) - Screen-scraping library
+* [requests](http://docs.python-requests.org) - HTTP for Humans
 
 
 
@@ -30,4 +30,7 @@ Install the dependencies
 $ pip install PyQt5
 $ pip install BeautifullSoup4
 ```
-
+To run the the app
+```sh
+$ python weather.py
+```
