@@ -10,6 +10,9 @@ class EditWin(QtWidgets.QWidget):
         self.text = QtWidgets.QLineEdit()
         self.lbl = QtWidgets.QLabel("Enter new city name:")
 
+        with open("qss/style.stylesheet", "r") as fh:
+            self.setStyleSheet(fh.read())
+
         self.box = QtWidgets.QVBoxLayout()
         self.box.addWidget(self.lbl)
         self.box.addWidget(self.text)

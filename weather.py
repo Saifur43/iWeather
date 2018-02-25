@@ -18,6 +18,10 @@ class Window(QtWidgets.QWidget):
         # weather report label
         self.btn = QtWidgets.QPushButton("About")
         self.btn2 = QtWidgets.QPushButton("Change City")
+
+        with open("qss/style.stylesheet", "r") as fh:
+            self.setStyleSheet(fh.read())
+
         # creating vertical layout
         self.v_box = QtWidgets.QVBoxLayout()
         self.v_box.addWidget(self.lbl)
