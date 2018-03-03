@@ -4,11 +4,12 @@ iWeather is a tool for searching weather of any city in Bangladesh.
 
   
   
-![capture](https://user-images.githubusercontent.com/16235332/36641535-27a502cc-1a5b-11e8-94f9-8896c29ed84f.JPG)
+![capture](https://user-images.githubusercontent.com/16235332/36936726-29e5ca30-1f33-11e8-817e-f334c89bc07e.JPG)
 
 - Change city name from 'Change City' menu
 
-![capture](https://user-images.githubusercontent.com/16235332/36641559-92a3e8c2-1a5b-11e8-8f2c-f00272dfa4fa.JPG)
+
+![capture2](https://user-images.githubusercontent.com/16235332/36936736-48ea72dc-1f33-11e8-8d0c-3c7d9638a2e6.JPG)
 
 
 ### Python Modules
