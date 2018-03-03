@@ -25,4 +25,4 @@ class EditWin(QtWidgets.QWidget):
     def btn_clicked(self):
         city = self.text.text()
         default_city.set_default(city)
-        QtWidgets.QApplication.exit()
+        self.hide()
