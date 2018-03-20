@@ -1,6 +1,6 @@
 # iWeather
 
-iWeather is a tool for searching weather of any city in Bangladesh.
+iWeather is a tool for finding real time weather report of any city in Bangladesh.
 
   
   
